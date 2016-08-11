@@ -5,7 +5,7 @@ var Genres = require('./genres');
 
 module.exports = Backbone.Model.extend({
 
-  urlRoot: "http://alpha.core.soundframework.com/api/0/rest/json/genre/find/query/",
+  urlRoot: 'http://alpha.core.soundframework.com/api/0/rest/json/genre/find/query/',
 
   constructor: function() {
     this.initSubModels();
