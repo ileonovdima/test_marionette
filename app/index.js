@@ -2,8 +2,8 @@
 
 var $ = require('jquery');
 
-var ContactsLayoutView = require('./test1/views/contactsLayout');
 var Contacts = require('./test1/models/contacts');
+var ContactsLayoutView = require('./test1/views/contactsLayout');
 
 var GenresProvider = require('./test2/models/genres-provider');
 var GenresLayoutView = require('./test2/views/genresLayout');
