@@ -1,6 +1,6 @@
 # test_marionette
 
 
-mpm install
+npm install
 
 npm start run
