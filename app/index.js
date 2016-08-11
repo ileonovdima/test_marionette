@@ -5,7 +5,7 @@ var $ = require('jquery');
 var ContactsLayoutView = require('./test1/views/contactsLayout');
 var Contacts = require('./test1/models/contacts');
 
-var StoreGenres = require('./test2/models/store');
+var GenresProvider = require('./test2/models/genres-provider');
 var GenresLayoutView = require('./test2/views/genresLayout');
 
 var contacts = new Contacts([{
@@ -37,5 +37,5 @@ var contacts = new Contacts([{
 var contactsLayoutView = new ContactsLayoutView({ collection: contacts });
 $('#contacts').html(contactsLayoutView.render().el);
 
-var genresLayoutView = new GenresLayoutView({ model: new StoreGenres() });
+var genresLayoutView = new GenresLayoutView({ model: new GenresProvider() });
 $('#genres').html(genresLayoutView.render().el);
