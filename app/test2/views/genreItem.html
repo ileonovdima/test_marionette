@@ -1,0 +1,10 @@
+<div class="ganre">
+  <div class="ganre__title"><%=name%></div>
+  <div class="ganre__actions">
+  <% if (parent.id) { %>
+    <button class="ganre__action">+</button>
+  <% } else { %>
+    <button class="ganre__action ganre__action--green">v</button>
+  <% } %>
+  </div>
+</div>
